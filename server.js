@@ -23,15 +23,15 @@ async function main () {
     other: get('/other', (req, reply) => {
       reply.send('string response')
     }),
-    imageGet: get('/graph', (req, reply) => {
+    imageGet: get('/imageGet', (req, reply) => {
       const db = fastify.mongo.db
 
       db.collection('images', onCollection)
 
       function onCollection (err, col) {
         if (err) return reply.send(err)
-
-        col.findOne({}, (err, user) => {
+        // col.findOne works
+        col.find({}, (err, user) => {
           if (err) {
             reply.send(err)
           }
