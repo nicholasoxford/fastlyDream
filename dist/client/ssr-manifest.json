@@ -1,0 +1,51 @@
+{
+  "/Users/nicholas.oxford/Documents/example/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
+    "/assets/vendor.cfe872db.js"
+  ],
+  "/Users/nicholas.oxford/Documents/example/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
+    "/assets/vendor.cfe872db.js"
+  ],
+  "/Users/nicholas.oxford/Documents/example/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
+    "/assets/vendor.cfe872db.js"
+  ],
+  "/Users/nicholas.oxford/Documents/example/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
+    "/assets/vendor.cfe872db.js"
+  ],
+  "/Users/nicholas.oxford/Documents/example/node_modules/vue/dist/vue.runtime.esm-bundler.js": [
+    "/assets/vendor.cfe872db.js"
+  ],
+  "/Users/nicholas.oxford/Documents/example/node_modules/@vueuse/head/dist/index.mjs": [
+    "/assets/vendor.cfe872db.js"
+  ],
+  "/Users/nicholas.oxford/Documents/example/node_modules/vue-router/dist/vue-router.esm-bundler.js": [
+    "/assets/vendor.cfe872db.js"
+  ],
+  "\u0000commonjsHelpers.js": [
+    "/assets/vendor.cfe872db.js"
+  ],
+  "\u0000/Users/nicholas.oxford/Documents/example/node_modules/vue/dist/vue.runtime.esm-bundler.js?commonjs-proxy": [
+    "/assets/vendor.cfe872db.js"
+  ],
+  "/Users/nicholas.oxford/Documents/example/node_modules/fastify-vite/hydrate.js": [
+    "/assets/vendor.cfe872db.js"
+  ],
+  "/Users/nicholas.oxford/Documents/example/pages/hello.vue?vue&type=style&index=0&scoped=true&lang.css": [
+    "/assets/hello.af2a67a9.js",
+    "/assets/hello.77319922.css"
+  ],
+  "/Users/nicholas.oxford/Documents/example/pages/hello.vue": [
+    "/assets/hello.af2a67a9.js",
+    "/assets/hello.77319922.css"
+  ],
+  "/Users/nicholas.oxford/Documents/example/node_modules/fastify-vite/hooks.js": [
+    "/assets/hooks.02cb6516.js"
+  ],
+  "/Users/nicholas.oxford/Documents/example/pages/index.vue?vue&type=style&index=0&scoped=true&lang.css": [
+    "/assets/index.c62bf526.js",
+    "/assets/index.402d6fe1.css"
+  ],
+  "/Users/nicholas.oxford/Documents/example/pages/index.vue": [
+    "/assets/index.c62bf526.js",
+    "/assets/index.402d6fe1.css"
+  ]
+}
