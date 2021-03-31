@@ -1,4 +1,5 @@
 <template>
+  <div class="mt-8">
  <span>We believe computers can dream.</span><br />
       <br />
       <span
@@ -19,6 +20,7 @@
       <span><a href="mailto:dreams@dreamland.to">dreams@dreamland.to</a></span>
       <br />
       <br />
+    </div>
 </template>
 
 <script>
@@ -44,8 +46,7 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  cursor: pointer;
-  color: red;
+.about {
+  margin-top: 10px;
 }
 </style>

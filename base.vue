@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <router-link to="/">Index</router-link> - 
-    <router-link to="/hello">Hello</router-link>
+  <div class="info">
+    <router-link to="/">Home</router-link> - 
+    <router-link to="/about">About</router-link>
     <router-view v-slot="{ Component }">
       <Suspense>
         <component :key="route.path" :is="Component" />
@@ -33,10 +33,13 @@ export default {
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 20px;
+  box-sizing: border-box;
 }
+
 </style>

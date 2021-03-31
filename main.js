@@ -1,6 +1,6 @@
 import { createSSRApp } from 'vue'
 import base from './base.vue'
-
+import 'virtual:windi.css'
 import { createHead } from '@vueuse/head'
 import { getRouter } from './router'
 

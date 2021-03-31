@@ -1,8 +1,8 @@
 <template>
     <div  class="grid">
-      <div v-for="(item, index) in 1" :key="index" class="box">
-        <img :src="data.url" />
-        <span class="imgspan">{{ data.title }}</span>
+      <div v-for="(item, index) in data" :key="index" class="box">
+        <img :src="item.url" />
+        <span class="imgspan">{{ item.title }}</span>
       </div>
     </div>
 
@@ -16,10 +16,8 @@ let about = false;
 let imgData = [];
 const api = useServerAPI();
 const data = await useServerData(async () => {
-  var x = await api.imageGet();
-
-  
-  return x.json;
+  var t = await api.imageGet();
+  return t.json
 });
 </script>
 
@@ -39,5 +37,12 @@ a {
 }
 .imgspan {
   font-weight: 400;
+}
+.grid {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: minmax(100px, auto);
+  gap: 10px;
 }
 </style>

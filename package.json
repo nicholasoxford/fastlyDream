@@ -23,6 +23,7 @@
     "fastify": "^3.13.0",
     "fastify-api": "^0.1.0",
     "fastify-vite": "^2.0.0",
-    "vite": "^2.0.5"
+    "vite": "^2.0.5",
+    "vite-plugin-windicss": "^0.11.2"
   }
 }
